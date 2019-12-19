@@ -1,0 +1,96 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,600,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+@import url("components/heroBanner.css");
+
+* {                         /* Reset Properties */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+html { 
+  scroll-behavior: smooth; 
+} 
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: #f7f9fc;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #6c7b95;
+}
+
+.inline-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.inline-list i {
+  font-size: 50px;
+  color: #435b71;
+}
+
+.inline-list i:hover {
+  color: #018383;
+  cursor: pointer;
+}
+
+#page-three {
+  height: 100%;
+  width: 100%;
+  background-color: #435b71;
+  padding-top: 50px;
+}
+
+#page-three>div>div>h2 {
+  color: #fff;
+}
+
+#header {
+  background-color: #018383;
+  position: fixed;
+  width: 100%;
+  vertical-align: middle;
+}
+
+#header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+#header .container a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+#footer {
+  min-height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer i {
+  margin: 10px 15px;
+}
+
+

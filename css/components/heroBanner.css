@@ -1,0 +1,26 @@
+.hero {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0), rgba(0,0,0,0.3) 25%), url("../../images/cybersecurtiy.jpg");
+    color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    padding-top: 30vh;
+}
+
+.hero h1 {
+    size: 50px;
+    color: inherit;
+    font-weight: bold;
+}
+
+.hero h2 {
+    size: 30px;
+    color: inherit;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 150px;
+}

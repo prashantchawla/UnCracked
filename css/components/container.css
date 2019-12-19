@@ -1,0 +1,33 @@
+.page-container {
+    display: flex;
+    min-height: 100vh; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.container>h2 {
+    margin-top: 30px;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
